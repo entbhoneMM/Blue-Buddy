@@ -1,0 +1,24 @@
+:root {
+
+    /* font */
+	
+
+    --primary-ff: 'Lato';
+    --hero-fz: 8rem;
+    --section-fz: 5rem;
+    --body-fz: 1.8rem;
+    --nav-fz: 2rem;
+    --line-height: 1.6rem;
+
+
+    --primary-color: #3289EA;
+    --accend-color: #A1C8F3;
+    --hero-color: #224466;
+    --body-text-color: #000000;
+    --bg-color: #fff;
+    --price-card-bg-color: #F2F2F2;
+    --price-card-ds-color: #D6D5D5;
+    --footer-bg-color: #333333;
+
+    font-size: 62.5%;
+}

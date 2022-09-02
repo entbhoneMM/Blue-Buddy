@@ -1,0 +1,178 @@
+.home, .top-bar, .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* .home {
+    height: 100vh;
+    
+    
+} */
+
+/* start TOP BAR */
+.top-bar {
+    background-color: var(--accend-color);
+    height: 8rem;
+
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+}
+
+@media (max-width: 800px) {
+    .top-bar h1 {
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+}
+
+.home div h1 {
+    font-family: var(--primary-ff);
+    color: var(--hero-color);
+    text-transform: uppercase;
+}
+
+
+/*  Start BANNER */
+
+.banner {
+    background: url(/img/rohit-tandon-62046.jpg) no-repeat center;
+    background-size: cover;
+    height: 90rem;
+
+    
+    font-size: var(--hero-fz);
+    font-weight: 700;
+    letter-spacing: 1.6rem;
+    line-height: 9.3rem;
+
+}
+
+
+.banner h1:last-child {
+    font-size: 10rem;
+    font-weight: 300;
+}
+
+.banner h1 {
+    /* Font */
+    transition: all 1s;
+}
+
+.banner h1:hover {
+    font-size: 10.3rem;
+}
+
+
+
+@media (max-width: 800px) {
+        .banner {
+            height: 667px;
+        }
+
+
+        .banner h1 {
+            font-size: 6rem;
+            letter-spacing: 0.8rem;
+        }
+
+
+        
+    }
+    
+
+
+/* start NAVBAR */
+.toggle {
+    display: none;
+}
+
+.toggle i {
+    color: var(--bg-color);
+    font-size: var(--nav-fz);
+}
+
+.navbar {
+
+    /* nav color */
+    height: 5rem;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.navbar .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+
+    .navbar {
+        height: auto;
+    }
+
+
+    .navbar .nav-list {
+        flex-direction: column;
+    }
+    
+}
+
+
+.nav-list .nav-item {
+    margin-left: 10rem;
+}
+
+.nav-item a {
+    /* Font */
+    font-family: var(--primary-ff);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--bg-color);
+
+    transition: all 0.5s;
+}
+
+.nav-item a:hover {
+    color: var(--hero-color);
+    font-size: 2.3rem;
+}
+
+@media (max-width: 800px) {
+
+    .toggle {
+        text-align: right;
+        display: block;
+        margin: 1rem;
+        padding-right: 2rem;
+        
+    }
+
+    .nav-list .nav-item {
+            
+            padding: 1rem;
+            margin: auto;
+            text-align: center;
+
+            width: 80%;
+
+            border-bottom: 1px solid var(--bg-color);
+    }
+
+    .nav-list .nav-item:last-child {
+            border: none;
+    }
+    
+}
+
+
+
