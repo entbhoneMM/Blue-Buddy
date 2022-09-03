@@ -13,3 +13,28 @@
     left: 0px;
     top: 787px;
 }
+
+
+.mb-80 {
+    margin-bottom: 8rem;
+}
+
+.mb-50 {
+    margin-bottom: 5rem;
+}
+
+.mb-40 {
+    margin-bottom: 4rem;
+}
+
+
+.section-title {
+    font-family: var(--primary-ff);
+    font-size: var(--section-fz);
+    font-weight: 300;
+    line-height: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: var(--primary-color);
+}

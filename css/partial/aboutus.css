@@ -1,0 +1,47 @@
+.about-img {
+    flex: 1 1 33.333%;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 1s;
+}
+
+.about-img:hover {
+    transform: scale(1.1);
+}
+
+.about-text {
+    flex: 2 2 66.666%;
+    font-family: var(--primary-ff);
+    font-size: var(--body-fz);
+    line-height: 2.6rem;
+    color: var(--footer-bg-color);
+}
+
+
+@media (max-width: 1400px) {
+    .aboutus-body {
+        gap: 3rem;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .about-text {
+        margin-top: 3rem;
+    }
+
+
+    
+}
