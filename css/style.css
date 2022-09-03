@@ -1,6 +1,7 @@
-@import "partial/global.css";
 @import "partial//variable.css";
+@import "partial/global.css";
 @import "partial/common.css";
 @import "partial/header.css";
 @import "partial/navbar.css";
 @import "partial/aboutus.css";
+@import "partial/our-services.css";
