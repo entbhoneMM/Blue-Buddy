@@ -39,7 +39,7 @@
 /*  Start BANNER */
 
 .banner {
-    background: url(/img/rohit-tandon-62046.jpg) no-repeat center;
+    background: url('/img/rohit-tandon-62046.jpg') no-repeat center;
     background-size: cover;
     height: 85vh;
 
