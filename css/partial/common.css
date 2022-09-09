@@ -11,7 +11,9 @@
 .active {
     position: absolute;
     left: 0px;
-    top: 50px;
+    top: 4rem;
+
+    transition: all 1s;
 }
 
 
