@@ -29,8 +29,8 @@
     transition: all 0.8s;
 }
 
-.card-img:hover {
-    transform: rotate(360deg);
+.card:hover .card-img {
+    transform: rotate(360deg) scale(1.2);
 }
 
 .card-img img {

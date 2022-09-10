@@ -1,0 +1,36 @@
+
+
+.portfolio {
+    background:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/img/breather-163395.jpg") no-repeat center;
+    background-size: cover;
+    height: 60rem;
+    width: auto;
+    justify-content: center;
+    
+}
+
+
+.portfolio .section-title {
+    color: #fff;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next 
+{
+    font-family: var(--primary-ff);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    
+    width: 10rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: rgba(0,0,0,0.5);
+
+    margin-top: 7rem;
+
+} 
+
+
+
