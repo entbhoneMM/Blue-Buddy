@@ -154,7 +154,7 @@
 
         @keyframes right-to-left {
             from {
-                transform: translateX(100rem) ;
+                transform: translateX(-100rem) ;
             }
             
             to {
