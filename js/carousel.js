@@ -31,7 +31,9 @@ $('.owl-carousel').owlCarousel({
     nav: true,
     navText: ["Prev","Next"],
     
-
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
     dots: false,
     responsive: {
         0: {
