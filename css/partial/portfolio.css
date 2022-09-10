@@ -75,5 +75,11 @@
 
 } 
 
+@media (max-width: 600px) {
+    .portfolio .section-title {
+        padding-top: 4rem;
+    }
+}
+
 
 
