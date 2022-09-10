@@ -33,6 +33,7 @@
 
 .home div h1 {
     font-family: var(--primary-ff);
+    font-weight: 900;
     color: var(--hero-color);
     text-transform: uppercase;
 }
@@ -106,13 +107,59 @@
 
 @media (max-width: 800px) {
         .banner {
-            height: 667px;
+            height: 80vh;
+        }
+        
+
+        .warpper-one,
+        .warpper-two 
+        {
+            height: 18rem;
+            display: block;
+            overflow-y: hidden;
         }
 
 
-        .banner h1 {
-            font-size: 6rem;
-            letter-spacing: 0.8rem;
+
+        .banner .warpper-one .text
+        {
+            font-size: 5rem;
+            font-weight: 900;
+            letter-spacing: auto;
+            
+            position: relative;
+            animation: left-to-right 1.5s;
+
+        }
+
+
+        @keyframes left-to-right {
+            from {
+                transform: translateX(-100rem) ;
+            }
+            
+            to {
+                transform: translate-x(0);
+            }
+        }
+
+        .banner .warpper-two .text {
+            font-size: 5rem;
+            font-weight: 900;
+            letter-spacing: auto;
+            
+            position: relative;
+            animation: right-to-left 1.5s;
+        }
+
+        @keyframes right-to-left {
+            from {
+                transform: translateX(100rem) ;
+            }
+            
+            to {
+                transform: translate-x(0);
+            }
         }
         
     }
