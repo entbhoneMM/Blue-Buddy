@@ -35,6 +35,25 @@
 
     background-color: var(--primary-color);
     z-index: 1;
+
+    transition: all 0.8s;
+}
+
+.portfolio .owl-carousel .item .portfolio-card {
+    overflow: hidden;
+}
+
+.portfolio .owl-carousel .item .portfolio-card img {
+    transition: all 0.8s;
+}
+
+.portfolio .owl-carousel .item .portfolio-card:hover img {
+    transform: scale(1.2);
+}
+
+
+.portfolio .owl-carousel .item .portfolio-card:hover a {
+    background-color: var(--accend-color);
 }
 
 
