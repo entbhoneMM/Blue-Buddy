@@ -13,18 +13,8 @@
     color: #fff;
 }
 
-.portfolio .owl-carousel .item .card {
-    /* height: 23rem; */
-    /* object-fit: cover; */
-}
 
-.portfolio .owl-carousel .item .card img {
-   /* height: 23rem; */
-}
-
-
-
-.portfolio .owl-carousel .item .card a {
+.portfolio .owl-carousel .item .portfolio-card a {
     display: block;
     width: 100%;
     height: 6rem;
