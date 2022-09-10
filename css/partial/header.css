@@ -6,6 +6,8 @@
 }
 
 
+
+
 /* .home {
     height: 100vh;
     
@@ -55,19 +57,49 @@
 }
 
 
-.banner h1:last-child {
+/* .banner h1:last-child {
     font-size: 10rem;
     font-weight: 300;
 }
 
 .banner h1 {
-    /* Font */
     transition: all 1s;
 }
 
 .banner h1:hover {
     transform: scale(1.1);
     color: var(--primary-color);
+} */
+
+.warpper-one,
+.warpper-two 
+{
+    height: 9rem;
+    display: block;
+    overflow-y: hidden;
+}
+
+
+
+.banner .warpper-one .text,
+.banner .warpper-two .text
+{
+    font-size: 8rem;
+    font-weight: 900;
+    
+    position: relative;
+    animation: slide-up 1.5s;
+
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(8rem);
+    }
+    
+    to {
+        transform: translateY(0);
+    }
 }
 
 
