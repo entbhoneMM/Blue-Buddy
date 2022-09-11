@@ -1,0 +1,124 @@
+.footer {
+    /* height: 50rem; */
+    background-color: var(--footer-bg-color);
+   
+    font-family: var(--primary-ff);
+    padding: 8rem 0 5rem;
+}
+
+.foot-nav .logo a {
+    color: var(--primary-color);
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+
+.foot-nav .logo a span {
+    color: var(--bg-color);
+    font-size:3rem;
+
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+
+
+
+.footer nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
+    margin-bottom: 2rem;
+}
+
+.footer nav .discribe {
+    display: flex;
+    gap: 10rem;
+}
+
+.discribe dl > dt {
+    color: gray;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    
+}
+
+
+.discribe dl > dd {
+    margin-bottom: 1.5rem;
+}
+
+.discribe dl > dd a {
+    color: var(--bg-color);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+
+
+.footer nav .social ul {
+    display: flex;
+}
+
+
+.footer nav .social ul
+ {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+.footer nav .social ul a i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.footer nav .social ul a:hover i {
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.footer .location {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.footer .bot-link  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .bot-link ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer div a,
+.footer div i
+{
+    color: #fff;
+    
+}
+
+.footer div a {
+    margin-left: 0.5rem;
+}
+
+
+
+.footer .bot-link span {
+    color: #fff;
+}
+
+.discribe dl > dd a:hover,
+.footer div a:hover
+{
+    color: var(--primary-color) ;
+}
