@@ -1,9 +1,10 @@
 .footer {
     /* height: 50rem; */
     background-color: var(--footer-bg-color);
-   
+    display: flex;
+    flex-direction: column;
     font-family: var(--primary-ff);
-    padding: 8rem 0 5rem;
+    padding: 6rem 0 4rem;
 }
 
 .foot-nav .logo a {
@@ -27,16 +28,22 @@
 
 
 
-.footer nav {
+.footer .foot-nav {
     display: flex;
     justify-content: space-between;
-    gap: 20rem;
+    /* flex-direction: column; */
     margin-bottom: 2rem;
 }
 
-.footer nav .discribe {
+.footer .foot-nav .discribe {
     display: flex;
-    gap: 10rem;
+    flex: 0 0 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .foot-nav .discribe dl {
+    flex: 1 1 33.33%;
 }
 
 .discribe dl > dt {
@@ -121,4 +128,37 @@
 .footer div a:hover
 {
     color: var(--primary-color) ;
+}
+
+
+@media (max-width: 600px) { 
+
+    .footer .foot-nav .discribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        gap: 2rem;
+    }
+    
+    
+   
+}
+
+@media (max-width: 986px) {
+    .footer .foot-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer .bot-link ul {
+        margin-right: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 70%;
+    }
+
+    
+
 }

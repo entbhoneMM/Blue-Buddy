@@ -3,21 +3,22 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+
 }
 
 
 
 
-/* .home {
+.home {
     height: 100vh;
     
     
-} */
+}
 
 /* start TOP BAR */
 .top-bar {
     background-color: var(--accend-color);
-    height: 8rem;
+    height: 10%;
 
     font-weight: 700;
     font-size: 2rem;
@@ -46,7 +47,7 @@
     background-size: cover;
 
     width: auto;
-    height: 85vh;
+    height: 100vh;
 
 
     
@@ -107,7 +108,7 @@
 
 @media (max-width: 800px) {
         .banner {
-            height: 80vh;
+            height: 100vh;
         }
         
 
