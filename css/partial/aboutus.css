@@ -1,11 +1,11 @@
-.about-us {
-    background-color: var(--bg-color);
+.aboutus-body {
+    gap: 3rem;
 }
 
 
-
-
 .about-img {
+
+    width: 80%;
     flex: 1 1 33.333%;
     align-items: center;
     justify-content: center;
@@ -13,22 +13,30 @@
     transition: all 1s;
 }
 
+.about-img img {
+    width: 100%;
+}
+
 .about-img:hover {
     transform: scale(1.1);
 }
 
 .about-text {
+    flex-direction: column;
     flex: 2 2 66.666%;
     font-family: var(--primary-ff);
     font-size: var(--body-fz);
     line-height: 2.6rem;
     color: var(--footer-bg-color);
+
+    justify-content: center;
 }
 
 
 @media (max-width: 1400px) {
     .aboutus-body {
-        gap: 3rem;
+        align-items: center;
+        gap: 1rem;
     }
 }
 
