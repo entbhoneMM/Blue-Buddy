@@ -10,7 +10,7 @@
 
 
 .home {
-    height: 100vh;
+    height: 94vh;
     
     
 }
@@ -37,6 +37,7 @@
     font-weight: 900;
     color: var(--hero-color);
     text-transform: uppercase;
+
 }
 
 
@@ -44,6 +45,7 @@
 
 .banner {
     background: url('../../img/rohit-tandon-62046.jpg') no-repeat center;
+    background-attachment: fixed;
     background-size: cover;
 
     width: auto;
@@ -53,25 +55,21 @@
     
     font-size: var(--hero-fz);
     font-weight: 700;
-    letter-spacing: 1.6rem;
+    letter-spacing: 0;
     line-height: 9.3rem;
 
 }
 
-
-/* .banner h1:last-child {
-    font-size: 10rem;
-    font-weight: 300;
-}
-
-.banner h1 {
-    transition: all 1s;
-}
-
-.banner h1:hover {
-    transform: scale(1.1);
+.banner .warpper-two h1 {
     color: var(--primary-color);
-} */
+}
+
+.banner h1:last-child span {
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--bg-color);
+}
+
 
 .warpper-one,
 .warpper-two 
@@ -115,7 +113,6 @@
         .warpper-one,
         .warpper-two 
         {
-            height: 18rem;
             display: block;
             overflow-y: hidden;
         }
@@ -155,7 +152,7 @@
 
         @keyframes right-to-left {
             from {
-                transform: translateX(-100rem) ;
+                transform: translateX(100rem) ;
             }
             
             to {

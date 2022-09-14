@@ -1,3 +1,10 @@
+.about-us {
+    background-color: var(--bg-color);
+}
+
+
+
+
 .about-img {
     flex: 1 1 33.333%;
     align-items: center;

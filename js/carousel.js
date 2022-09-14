@@ -10,7 +10,7 @@ $('.owl-carousel').owlCarousel({
     navText: ["Prev","Next"],
     
     autoplay:true,
-    autoplayTimeout:10000,
+    autoplayTimeout:5000,
     autoplayHoverPause:true,
     dots: false,
     responsive: {

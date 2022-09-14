@@ -1,3 +1,7 @@
+/* For LOGO  */
+
+
+/* Containers */
 .container {
     width: 80%;
     margin: auto;
@@ -20,6 +24,9 @@
     padding-top: 8rem;
 }
 
+.mt-80 {
+    margin-top: 8rem;
+}
 
 .mb-80 {
     margin-bottom: 8rem;
@@ -94,6 +101,15 @@
 }
 
 @media (max-width: 800px) {
+
+    .logo a {
+        font-size: 2rem;
+        line-height: 6rem;
+    }
+
+    .logo a span {
+        font-size: 1rem;
+    }
 
     .card-container {
         flex-direction: column;
