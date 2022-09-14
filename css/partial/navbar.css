@@ -1,12 +1,4 @@
 /* start NAVBAR */
-.navwarp {
-    background-color: var(--primary-color);
-    width: 100%;
-    position: sticky;
-    top: 0px;
-    z-index: 2;
-}
-
 .toggle {
     display: none;
 }
@@ -18,11 +10,15 @@
 
 .navbar {
 
-    height: 6rem;
+    height: 7rem;
+    background-color: var(--primary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 
 }
 
@@ -35,7 +31,6 @@
     transition: all 1s;
 
 }
-
 
 @media (max-width: 800px) {
 
@@ -53,7 +48,7 @@
 
 
 .nav-list .nav-item {
-    margin-left: 5rem;
+    margin-left: 10rem;
 }
 
 .nav-list .nav-item:first-child {

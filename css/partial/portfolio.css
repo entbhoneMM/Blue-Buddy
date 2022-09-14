@@ -77,6 +77,9 @@
 } 
 
 @media (max-width: 600px) {
+    .portfolio {
+        background-attachment: scroll;
+    }
     .portfolio .section-title {
         padding-top: 4rem;
     }
