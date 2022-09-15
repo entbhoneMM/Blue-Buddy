@@ -107,7 +107,7 @@
 @media (max-width: 800px) {
         .banner {
             height: 100vh;
-            background-attachment: scroll;
+            background-attachment: fixed;
         }
         
 
