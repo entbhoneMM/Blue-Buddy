@@ -35,7 +35,7 @@
 .home div h1 {
     font-family: var(--primary-ff);
     font-weight: 900;
-    color: var(--hero-color);
+    color: var(--bg-color);
     text-transform: uppercase;
 
 }
@@ -44,7 +44,7 @@
 /*  Start BANNER */
 
 .banner {
-    background: url('../../img/rohit-tandon-62046.jpg') no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/Digital-World.jpg') no-repeat center;
     background-attachment: fixed;
     background-size: cover;
 
