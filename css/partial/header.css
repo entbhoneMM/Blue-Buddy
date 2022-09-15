@@ -10,9 +10,7 @@
 
 
 .home {
-    height: 94vh;
-    
-    
+    height: 94vh; 
 }
 
 /* start TOP BAR */
@@ -25,12 +23,6 @@
     letter-spacing: 0.4rem;
 }
 
-@media (max-width: 800px) {
-    .top-bar h1 {
-        font-size: 1rem;
-        letter-spacing: 0.1rem;
-    }
-}
 
 .home div h1 {
     font-family: var(--primary-ff);
@@ -105,12 +97,19 @@
 
 
 @media (max-width: 800px) {
+
+
         .banner {
             height: 100vh;
             background-attachment: fixed;
         }
-        
 
+        .top-bar h1 {
+            font-size: 1rem;
+            letter-spacing: 0.1rem;
+        }
+
+    
         .warpper-one,
         .warpper-two 
         {
@@ -129,6 +128,11 @@
             position: relative;
             animation: left-to-right 1.5s;
 
+        }
+
+
+        .banner h1:last-child span {
+            font-size: 3rem;
         }
 
 
